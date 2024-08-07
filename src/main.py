@@ -1,4 +1,3 @@
-import json
 import os
 import smtplib
 from email.mime.image import MIMEImage
@@ -28,7 +27,7 @@ def send_mail(assunto):
     part = MIMEText(MSG, 'html')
     msg.attach(part)
 
-    image_path = './static/banner.png'
+    image_path = './static/banner-solo.png'
     with open(image_path, 'rb') as image_file:
         image = MIMEImage(image_file.read(), name='header.png')
         image.add_header('Content-ID', '<header_img>')

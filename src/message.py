@@ -44,6 +44,9 @@ MSG = """
             text-align: center;
             padding: 0.3rem;
         }
+        .grey {
+            background-color: #c0c0c0;
+        }
     </style>
 </head>
 <body>
@@ -53,23 +56,12 @@ MSG = """
     </div>
 
     <div class="container">
-        <p>Toda terça, 8h30 da manhã</p>
-        <h1>🐍 Encontro 6 - (23/7/24)</h1>
+        <del>Toda terça, 8h30 da manhã</del>
+        <h1>🐍 Encontro 8 - 8/8/2024</h1>
         <div class="msg">
-            <p>Olá!</p>
-            <p>Depois dessa grande revisão de quinta passada, voltaremos a programação normal já na próxima terça.</p>
-            <p>Levem notebooks!</p>
-            <p>Portanto, é essencial que estudem o último notebook e vejam pelo menos as 1as horas desse curso:</p>
-            <a href="https://www.youtube.com/watch?v=yTQDbqmv8Ho&t=1158s" target="_blank" title="Ver no youtube">
-                <img src="http://i3.ytimg.com/vi/yTQDbqmv8Ho/hqdefault.jpg" alt="Clique para ver o vídeo" width="600" height="400">
-              </a>            
-            <p>Outros tutoriais, se você estuda melhor lendo do que vendo vídeos:</p>
-            <ul>
-                <li><a href="https://didatica.tech/tudo-sobre-variaveis-em-python-aprenda-com-exemplos-praticos">Variáveis</a></li>
-                <li><a href="https://didatica.tech/tudo-sobre-listas-em-python/">Listas</a></li>
-                <li><a href="https://www.datacamp.com/pt/tutorial/for-loops-in-python">Loops</a></li>
-            </ul>
-            <p>Até lá!</p>
+            <h3>Feito! Amanhã já podemos nos reunir!</h3>
+            <h3>Vamos dar continuidade com os modelos de IA do hugging face com uma atividade prática!</h3>
+            <img src="https://c.tenor.com/eTmkE9KZQO4AAAAC/tenor.gif" alt="Imagem carregada" width="600" height="500" />
         </div>
         <div class="footer">
             © 2024 - IG/Seplag.py
