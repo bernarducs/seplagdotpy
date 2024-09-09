@@ -39,10 +39,11 @@ MSG = """
             font-size:1.25rem;
         }
         .footer {
-            background-color: #0094FF;
-            color: white;
+            background-color: #f5f5f5;
+            color: blue;
             text-align: center;
-            padding: 0.3rem;
+            padding: 3rem;
+            font-size:0.75em;
         }
         .grey {
             background-color: #c0c0c0;
@@ -56,19 +57,23 @@ MSG = """
     </div>
 
     <div class="container">
-        <del>Toda terça, 8h30 da manhã</del>
-        <h1>🐍 Encontro 8 - 8/8/2024</h1>
+        <del>Toda</del> terça, 8h30 da manhã
+        <h1>🐍 Encontros 9 e 10</h1>
         <div class="msg">
-            <h3>Feito! Amanhã já podemos nos reunir!</h3>
-            <h3>Vamos dar continuidade com os modelos de IA do hugging face com uma atividade prática!</h3>
-            <img src="https://c.tenor.com/eTmkE9KZQO4AAAAC/tenor.gif" alt="Imagem carregada" width="600" height="500" />
-        </div>
-        <div class="footer">
-            © 2024 - IG/Seplag.py
+            <h3>Voltamos!</h3>
+            <img src="https://media.tenor.com/qdg13PqYbxMAAAAM/yes-baby.gif" alt="yes" width="600" height="350" />
+            <p>Já temos sala reservada para os próximos encontros:</p>
+            <p><b>17 e 24 de setembro. Às 8 e 30 da manhã!</b></p>
+            <p>No dia 17 (terça), iremos montar uma pequena <a href="https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html">base</a> de dados;</p>
+            <p>E, na outra terça, vamos usar essa base para apredermos a mais famosa <a href="https://pandas.pydata.org/">biblioteca</a> de análise de dados da linguagem.</p>
+            <img src="https://vejasp.abril.com.br/wp-content/uploads/2016/12/cinema-com-os-minions.gif" alt="Imagem carregada" width="600" height="300" />
         </div>
     </div>
-</div>
 
+    <div class="footer">
+        © 2024 - IG/Seplag.py
+    </div>    
+</div>
 </body>
 </html>
 """
