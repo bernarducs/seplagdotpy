@@ -57,16 +57,19 @@ MSG = """
     </div>
 
     <div class="container">
-        <del>Toda</del> terça, 8h30 da manhã
-        <h1>🐍 Encontros 9 e 10</h1>
+        <p>(Quase) Toda terça, 8h30 da manhã</p>
+        <h1>🐍 Encontro 11</h1>
         <div class="msg">
-            <h3>Voltamos!</h3>
-            <img src="https://media.tenor.com/qdg13PqYbxMAAAAM/yes-baby.gif" alt="yes" width="600" height="350" />
-            <p>Já temos sala reservada para os próximos encontros:</p>
-            <p><b>17 e 24 de setembro. Às 8 e 30 da manhã!</b></p>
-            <p>No dia 17 (terça), iremos montar uma pequena <a href="https://imdbpy.readthedocs.io/en/latest/usage/quickstart.html">base</a> de dados;</p>
-            <p>E, na outra terça, vamos usar essa base para apredermos a mais famosa <a href="https://pandas.pydata.org/">biblioteca</a> de análise de dados da linguagem.</p>
-            <img src="https://vejasp.abril.com.br/wp-content/uploads/2016/12/cinema-com-os-minions.gif" alt="Imagem carregada" width="600" height="300" />
+            <h3>Já é amanhã!</h3>
+            <p>Vamos falar de <a href="https://pandas.pydata.org/">pandas!</a></p>
+            <p><b>5 de Novembro, às 8 e 30 da manhã! Será no 1o andar, sala 6.</b></p>
+            <p>Como eu carrego uma conjunto de dados em CSV?</p>
+            <p>Como vejo a estrutura geral desse conjunto?</p>
+            <p>Como agrupo os dados baseado em um grupo de dimensões?</p>
+            <p>Como criar novas colunas ou um novo conjunto de dados a partir dele?</p>
+            <p>E como exportar esses dados?</p>
+            <p>Até lá!</p>
+            <img src="https://geo-python-site.readthedocs.io/en/latest/_images/pandas_logo.png" alt="Imagem carregada" width="600" height="300" />
         </div>
     </div>
 
